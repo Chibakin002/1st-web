@@ -1,12 +1,12 @@
-/* style.css */
 body {
   background-color: rgb(0, 0, 0);
-  color: rgb(255, 0, 0); /* Good contrast */
+  color: rgb(255, 0, 0); 
   font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
 
-  /* Flexbox to center text */
+ 
   display: flex;
-  flex-direction: column; /* Stack h1 and h2 vertically */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -14,5 +14,5 @@ body {
   text-align: center;
 }
 h1, h4 {
-  margin: 5px 0; /* Adjust this number to control gap */
+  margin: 5px 0; 
 }
